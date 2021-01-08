@@ -3,14 +3,13 @@ import pandas as pd
 import os
 os.chdir('./rock_paper_scissors')
 
-import matplotlib.pyplot as plt
 from kaggle_environments import make, evaluate
 
 if __name__ == "__main__":
 
     list_names = [
         'self_popular_12pattern',
-        'timestep_self_popular_12pattern'
+        'best_model'
         ]
 
     list_agents = [agent_name + ".py" for agent_name in list_names]
