@@ -147,3 +147,4 @@ api.cfg
 rock_paper_scissors/best_model.py
 *.json
 *.csv
+*.zip
