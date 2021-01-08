@@ -1,5 +1,4 @@
 import numpy as np
-import collections
 from sklearn.tree import DecisionTreeClassifier
 
 def construct_local_features(rollouts):

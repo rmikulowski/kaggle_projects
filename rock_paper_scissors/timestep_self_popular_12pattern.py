@@ -1,7 +1,7 @@
 import pandas as pd
 
-from best_model import *
-from decision_tree_classifier import *
+from rock_paper_scissors.best_model import *
+from rock_paper_scissors.decision_tree_classifier import *
 
 agents = {
     'self_0': self_shift(0),
