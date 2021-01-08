@@ -1,6 +1,4 @@
 import numpy as np
-import pandas as pd
-import random
 
 T = np.zeros((3, 3))
 P = np.zeros((3, 3))

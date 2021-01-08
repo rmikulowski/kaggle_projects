@@ -79,7 +79,7 @@ def self_popular_12pattern_200(observation, configuration):
                 bandit_state[name][1] += step_size/2
             
     # we can use it for analysis later
-    with open('bandit.json', 'w') as outfile:
+    with open('../bandit.json', 'w') as outfile:
         json.dump(bandit_state, outfile)
     
     

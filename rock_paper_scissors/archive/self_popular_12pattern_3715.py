@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import json
 
-from submission import *
+from rock_paper_scissors.best_model import *
 
 agents = {
     'self_0': self_shift(0),
@@ -76,7 +76,7 @@ def self_popular_12pattern_3715(observation, configuration):
                 bandit_state[name][1] += step_size/2
             
     # we can use it for analysis later
-    with open('bandit.json', 'w') as outfile:
+    with open('../bandit.json', 'w') as outfile:
         json.dump(bandit_state, outfile)
     
     

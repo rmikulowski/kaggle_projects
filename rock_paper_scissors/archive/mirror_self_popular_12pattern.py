@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import json
 
-from submission import *
+from best_model import *
 
 agents = {
     'mirror_shift_0': mirror_shift(0),
