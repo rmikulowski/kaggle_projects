@@ -29,7 +29,7 @@ Following https://github.com/Kaggle/kaggle-api
 2. get token from your account on kaggle.com (https://www.kaggle.com/<username>/account), save it in Downloads
 3. go to the directory, which unables to move the file from Downloads to .kaggle
 4. mv (directory_with_kaggle.json - following previous points it would be Downloads) (/.kaggle)
-5. chmod 600 /Users/rafalmikulowski/.kaggle/kaggle.json
+5. chmod 600 /XXX/.kaggle/kaggle.json
 6. run 'kaggle competitions list' to see, if connection works
 7. switch to directory, in which project will be developped
 8. kaggle competitions download -c (your_competition_name
